@@ -38,6 +38,10 @@
                     scale=0；length<5: 使用Short；
             -->
             <property name="forceBigDecimals" value="false"/>
+            <!-- 在javaTypeResolver结点中加入属性useJSR310Types，
+            当useJSR310Types为true时，就会jdbc对应的日期类型会转成java8中的LocateDateTime类型，
+            如果useJSR310Types为false，则还是转成java.util.Date类型 -->
+            <property name="useJSR310Types" value="true"/>
         </javaTypeResolver>
 
         <!-- !!!! Model Configurations !!!! -->
@@ -70,7 +74,7 @@
         </javaClientGenerator>
 
         <!-- !!!! Table Configurations !!!! -->
-        <table tableName="tab_task"
+        <table tableName="orders"
                enableDeleteByPrimaryKey="true"
                enableUpdateByPrimaryKey="true"
                enableInsert="true"
