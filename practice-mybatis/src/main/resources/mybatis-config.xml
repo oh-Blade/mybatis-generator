@@ -8,7 +8,7 @@
     </settings>
 
     <typeAliases>
-        <package name="com.zyd.pratice.model"/>
+        <package name="com.hnk.pratice.model"/>
     </typeAliases>
 
     <environments default="development">
