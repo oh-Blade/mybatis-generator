@@ -7,7 +7,7 @@
 
     <!-- !!!! Driver Class Path !!!! -->
     <classPathEntry
-            location="C:\Users\hounaikuo\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar"/>
+            location="/Users/hounaikuo/.m2/repository/mysql/mysql-connector-java/8.0.12/mysql-connector-java-8.0.12.jar"/>
 
     <context id="context" defaultModelType="flat" targetRuntime="MyBatis3">
         <!-- 设置生成的java文件的编码 -->
